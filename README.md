@@ -65,8 +65,8 @@ Cria uma nova meta.
 #### Request body
 ```json
 {
-	"title": "Não usar o celular de noite",
-	"desiredWeeklyFrequency": 2
+   "title": "Não usar o celular de noite",
+   "desiredWeeklyFrequency": 2
 }
 ```
 ---
@@ -77,26 +77,26 @@ Obter metas pendentes da semana.
 
 ```json
 {
-	"pendingGoals": [
-		{
-			"id": "z7arl2brhmdmgob4gvqebi22",
-			"title": "Acordar cedo",
-			"desiredWeeklyFrequency": 5,
-			"completionCount": 1
-		},
-		{
-			"id": "reko1jv7lf4e5l3yt1mokyib",
-			"title": "Me exercitar",
-			"desiredWeeklyFrequency": 3,
-			"completionCount": 1
-		},
-		{
-			"id": "ywnm1j8svb730giwd3bauk49",
-			"title": "Meditar",
-			"desiredWeeklyFrequency": 1,
-			"completionCount": 0
-		}
-	]
+   "pendingGoals": [
+      {
+         "id": "z7arl2brhmdmgob4gvqebi22",
+         "title": "Acordar cedo",
+         "desiredWeeklyFrequency": 5,
+         "completionCount": 1
+      },
+      {
+         "id": "reko1jv7lf4e5l3yt1mokyib",
+         "title": "Me exercitar",
+         "desiredWeeklyFrequency": 3,
+         "completionCount": 1
+      },
+      {
+         "id": "ywnm1j8svb730giwd3bauk49",
+         "title": "Meditar",
+         "desiredWeeklyFrequency": 1,
+         "completionCount": 0
+      }
+   ]
 }
 ```
 ---
@@ -108,7 +108,7 @@ Criar conclusão de meta
 #### Response body
 ```json
 {
-	"goalId": "ywa0zn9rcy1ncpgom246zzoy"
+   "goalId": "ywa0zn9rcy1ncpgom246zzoy"
 }
 ```
 ---
@@ -119,27 +119,27 @@ Obter resumo da semana
 
 ```json
 {
-	"summary": [
-		{
-			"completed": 2,
-			"total": 9,
-			"goalsPerDay": {
-				"2024-10-20": [
-					{
-						"id": "z7arl2brhmdmgob4gvqebi22",
-						"title": "Acordar cedo",
-						"completedAt": "2024-10-20T03:00:00+00:00"
-					}
-				],
-				"2024-10-21": [
-					{
-						"id": "reko1jv7lf4e5l3yt1mokyib",
-						"title": "Me exercitar",
-						"completedAt": "2024-10-21T03:00:00+00:00"
-					}
-				]
-			}
-		}
-	]
+   "summary": [
+      {
+         "completed": 2,
+         "total": 9,
+         "goalsPerDay": {
+            "2024-10-20": [
+               {
+                  "id": "z7arl2brhmdmgob4gvqebi22",
+                  "title": "Acordar cedo",
+                  "completedAt": "2024-10-20T03:00:00+00:00"
+               }
+            ],
+            "2024-10-21": [
+               {
+                  "id": "reko1jv7lf4e5l3yt1mokyib",
+                  "title": "Me exercitar",
+                  "completedAt": "2024-10-21T03:00:00+00:00"
+               }
+            ]
+         }
+      }
+   ]
 }
 ```
